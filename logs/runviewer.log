@@ -1,0 +1,299 @@
+2025-01-02 16:00:02,021 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0017\2025-01-02_0017_green_mot_search_camera_0.h5
+2025-01-02 16:00:02,026 ERROR runviewer: Got an exception:
+Traceback (most recent call last):
+  File "C:\Users\schinelab\labscript-suite\runviewer\runviewer\__main__.py", line 664, in on_add_shot
+    self.load_shot(filepath)
+  File "C:\Users\schinelab\labscript-suite\runviewer\runviewer\__main__.py", line 770, in load_shot
+    shot = Shot(filepath)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\runviewer\runviewer\__main__.py", line 1457, in __init__
+    self.connection_table = ConnectionTable(path)
+                            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\connections.py", line 48, in __init__
+    dataset = hdf5_file['connection table']
+              ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "h5py\\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "C:\Users\schinelab\labscript-suite\.venv\Lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py\\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\\h5o.pyx", line 257, in h5py.h5o.open
+KeyError: "Unable to synchronously open object (object 'connection table' doesn't exist)"
+
+2025-01-02 16:05:57,607 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0021\2025-01-02_0021_green_mot_search_camera_0.h5
+2025-01-02 16:05:57,612 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0021\2025-01-02_0021_green_mot_search_camera_0.h5
+2025-01-02 16:05:57,612 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0021\2025-01-02_0021_green_mot_search_camera_0.h5
+2025-01-02 16:06:58,453 INFO runviewer: loading pulseblaster_0
+2025-01-02 16:06:59,352 INFO runviewer: loading cam1
+2025-01-02 16:06:59,352 INFO runviewer: Failed to load device cam1, exception was:
+Traceback (most recent call last):
+  File "C:\Users\schinelab\labscript-suite\runviewer\runviewer\__main__.py", line 1544, in _load_device
+    device_class = device_registry.get_runviewer_parser(module)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\device_registry\_device_registry.py", line 222, in get_runviewer_parser
+    return import_class_by_fullname(runviewer_parser_registry[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\device_registry\_device_registry.py", line 171, in import_class_by_fullname
+    split = fullname.split('.')
+            ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+
+2025-01-02 16:06:59,354 INFO runviewer: loading ni_0
+2025-01-02 16:19:04,113 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0028\2025-01-02_0028_green_mot_search_camera_0.h5
+2025-01-02 16:19:04,113 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0028\2025-01-02_0028_green_mot_search_camera_0.h5
+2025-01-02 16:19:04,114 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0028\2025-01-02_0028_green_mot_search_camera_0.h5
+2025-01-02 16:19:06,656 INFO runviewer: loading pulseblaster_0
+2025-01-02 16:19:06,930 INFO runviewer: loading cam1
+2025-01-02 16:19:06,931 INFO runviewer: Failed to load device cam1, exception was:
+Traceback (most recent call last):
+  File "C:\Users\schinelab\labscript-suite\runviewer\runviewer\__main__.py", line 1544, in _load_device
+    device_class = device_registry.get_runviewer_parser(module)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\device_registry\_device_registry.py", line 222, in get_runviewer_parser
+    return import_class_by_fullname(runviewer_parser_registry[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\device_registry\_device_registry.py", line 171, in import_class_by_fullname
+    split = fullname.split('.')
+            ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+
+2025-01-02 16:19:06,932 INFO runviewer: loading ni_0
+2025-01-02 16:20:29,831 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0029\2025-01-02_0029_green_mot_search_camera_0.h5
+2025-01-02 16:20:29,831 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0029\2025-01-02_0029_green_mot_search_camera_0.h5
+2025-01-02 16:20:29,831 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0029\2025-01-02_0029_green_mot_search_camera_0.h5
+2025-01-02 16:20:35,491 INFO runviewer: loading pulseblaster_0
+2025-01-02 16:20:35,767 INFO runviewer: loading cam1
+2025-01-02 16:20:35,768 INFO runviewer: Failed to load device cam1, exception was:
+Traceback (most recent call last):
+  File "C:\Users\schinelab\labscript-suite\runviewer\runviewer\__main__.py", line 1544, in _load_device
+    device_class = device_registry.get_runviewer_parser(module)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\device_registry\_device_registry.py", line 222, in get_runviewer_parser
+    return import_class_by_fullname(runviewer_parser_registry[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\device_registry\_device_registry.py", line 171, in import_class_by_fullname
+    split = fullname.split('.')
+            ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+
+2025-01-02 16:20:35,769 INFO runviewer: loading ni_0
+2025-01-02 16:43:17,018 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0030\2025-01-02_0030_green_mot_search_camera_0.h5
+2025-01-02 16:43:17,018 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0030\2025-01-02_0030_green_mot_search_camera_0.h5
+2025-01-02 16:43:17,018 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0030\2025-01-02_0030_green_mot_search_camera_0.h5
+2025-01-02 16:48:45,341 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0031\2025-01-02_0031_green_mot_search_camera_0.h5
+2025-01-02 16:48:45,342 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0031\2025-01-02_0031_green_mot_search_camera_0.h5
+2025-01-02 16:48:45,342 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0031\2025-01-02_0031_green_mot_search_camera_0.h5
+2025-01-02 16:50:08,882 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0033\2025-01-02_0033_green_mot_search_camera_0.h5
+2025-01-02 16:50:08,882 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0033\2025-01-02_0033_green_mot_search_camera_0.h5
+2025-01-02 16:50:08,882 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0033\2025-01-02_0033_green_mot_search_camera_0.h5
+2025-01-02 16:55:41,670 INFO runviewer: loading pulseblaster_0
+2025-01-02 16:55:41,944 INFO runviewer: loading cam1
+2025-01-02 16:55:41,944 INFO runviewer: Failed to load device cam1, exception was:
+Traceback (most recent call last):
+  File "C:\Users\schinelab\labscript-suite\runviewer\runviewer\__main__.py", line 1544, in _load_device
+    device_class = device_registry.get_runviewer_parser(module)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\device_registry\_device_registry.py", line 222, in get_runviewer_parser
+    return import_class_by_fullname(runviewer_parser_registry[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\device_registry\_device_registry.py", line 171, in import_class_by_fullname
+    split = fullname.split('.')
+            ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+
+2025-01-02 16:55:41,946 INFO runviewer: loading ni_0
+2025-01-02 16:57:39,906 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0034\2025-01-02_0034_green_mot_search_camera_0.h5
+2025-01-02 16:57:39,906 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0034\2025-01-02_0034_green_mot_search_camera_0.h5
+2025-01-02 16:57:39,907 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0034\2025-01-02_0034_green_mot_search_camera_0.h5
+2025-01-02 16:59:34,584 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0035\2025-01-02_0035_green_mot_search_camera_0.h5
+2025-01-02 16:59:34,584 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0035\2025-01-02_0035_green_mot_search_camera_0.h5
+2025-01-02 16:59:34,584 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\02\0035\2025-01-02_0035_green_mot_search_camera_0.h5
+2025-01-02 16:59:49,078 INFO runviewer: loading pulseblaster_0
+2025-01-02 16:59:49,352 INFO runviewer: loading cam1
+2025-01-02 16:59:49,352 INFO runviewer: Failed to load device cam1, exception was:
+Traceback (most recent call last):
+  File "C:\Users\schinelab\labscript-suite\runviewer\runviewer\__main__.py", line 1544, in _load_device
+    device_class = device_registry.get_runviewer_parser(module)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\device_registry\_device_registry.py", line 222, in get_runviewer_parser
+    return import_class_by_fullname(runviewer_parser_registry[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\schinelab\labscript-suite\labscript-utils\labscript_utils\device_registry\_device_registry.py", line 171, in import_class_by_fullname
+    split = fullname.split('.')
+            ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+
+2025-01-02 16:59:49,354 INFO runviewer: loading ni_0
+2025-01-03 16:36:15,051 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\03\0001\2025-01-03_0001_green_mot_search_camera_0.h5
+2025-01-03 16:36:15,051 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\03\0001\2025-01-03_0001_green_mot_search_camera_0.h5
+2025-01-03 16:36:15,052 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\03\0001\2025-01-03_0001_green_mot_search_camera_0.h5
+2025-01-09 11:01:26,844 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0013\2025-01-09_0013_green_mot_search_camera_0.h5
+2025-01-09 11:01:26,849 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0013\2025-01-09_0013_green_mot_search_camera_0.h5
+2025-01-09 11:01:26,849 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0013\2025-01-09_0013_green_mot_search_camera_0.h5
+2025-01-09 11:04:10,886 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0014\2025-01-09_0014_green_mot_search_camera_0.h5
+2025-01-09 11:04:10,886 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0014\2025-01-09_0014_green_mot_search_camera_0.h5
+2025-01-09 11:04:10,886 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0014\2025-01-09_0014_green_mot_search_camera_0.h5
+2025-01-09 11:06:30,868 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0015\2025-01-09_0015_green_mot_search_camera_0.h5
+2025-01-09 11:06:30,868 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0015\2025-01-09_0015_green_mot_search_camera_0.h5
+2025-01-09 11:06:30,868 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0015\2025-01-09_0015_green_mot_search_camera_0.h5
+2025-01-09 11:08:13,751 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0016\2025-01-09_0016_green_mot_search_camera_0.h5
+2025-01-09 11:08:13,751 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0016\2025-01-09_0016_green_mot_search_camera_0.h5
+2025-01-09 11:08:13,751 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0016\2025-01-09_0016_green_mot_search_camera_0.h5
+2025-01-09 11:11:24,432 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0017\2025-01-09_0017_green_mot_search_camera_0.h5
+2025-01-09 11:11:24,435 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0017\2025-01-09_0017_green_mot_search_camera_0.h5
+2025-01-09 11:11:24,436 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0017\2025-01-09_0017_green_mot_search_camera_0.h5
+2025-01-09 11:17:00,953 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0018\2025-01-09_0018_green_mot_search_camera_0.h5
+2025-01-09 11:17:00,953 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0018\2025-01-09_0018_green_mot_search_camera_0.h5
+2025-01-09 11:17:00,954 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0018\2025-01-09_0018_green_mot_search_camera_0.h5
+2025-01-09 11:52:53,445 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0019\2025-01-09_0019_green_mot_search_camera_0.h5
+2025-01-09 11:52:53,445 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0019\2025-01-09_0019_green_mot_search_camera_0.h5
+2025-01-09 11:52:53,445 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0019\2025-01-09_0019_green_mot_search_camera_0.h5
+2025-01-09 11:57:07,287 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0021\2025-01-09_0021_green_mot_search_camera_0.h5
+2025-01-09 11:57:07,288 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0021\2025-01-09_0021_green_mot_search_camera_0.h5
+2025-01-09 11:57:07,288 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0021\2025-01-09_0021_green_mot_search_camera_0.h5
+2025-01-09 11:57:43,880 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0022\2025-01-09_0022_green_mot_search_camera_0.h5
+2025-01-09 11:57:43,881 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0022\2025-01-09_0022_green_mot_search_camera_0.h5
+2025-01-09 11:57:43,881 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0022\2025-01-09_0022_green_mot_search_camera_0.h5
+2025-01-09 11:57:49,643 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0023\2025-01-09_0023_green_mot_search_camera_0.h5
+2025-01-09 11:57:49,643 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0023\2025-01-09_0023_green_mot_search_camera_0.h5
+2025-01-09 11:57:49,643 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0023\2025-01-09_0023_green_mot_search_camera_0.h5
+2025-01-09 12:01:45,821 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0024\2025-01-09_0024_green_mot_search_camera_0.h5
+2025-01-09 12:01:45,821 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0024\2025-01-09_0024_green_mot_search_camera_0.h5
+2025-01-09 12:01:45,821 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0024\2025-01-09_0024_green_mot_search_camera_0.h5
+2025-01-09 12:04:19,935 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0025\2025-01-09_0025_green_mot_search_camera_0.h5
+2025-01-09 12:04:19,935 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0025\2025-01-09_0025_green_mot_search_camera_0.h5
+2025-01-09 12:04:19,935 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0025\2025-01-09_0025_green_mot_search_camera_0.h5
+2025-01-09 12:06:17,034 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0026\2025-01-09_0026_green_mot_search_camera_0.h5
+2025-01-09 12:06:17,035 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0026\2025-01-09_0026_green_mot_search_camera_0.h5
+2025-01-09 12:06:17,035 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0026\2025-01-09_0026_green_mot_search_camera_0.h5
+2025-01-09 12:06:36,965 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0027\2025-01-09_0027_green_mot_search_camera_0.h5
+2025-01-09 12:06:36,965 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0027\2025-01-09_0027_green_mot_search_camera_0.h5
+2025-01-09 12:06:36,965 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0027\2025-01-09_0027_green_mot_search_camera_0.h5
+2025-01-09 12:07:58,501 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0028\2025-01-09_0028_green_mot_search_camera_0.h5
+2025-01-09 12:07:58,502 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0028\2025-01-09_0028_green_mot_search_camera_0.h5
+2025-01-09 12:07:58,502 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0028\2025-01-09_0028_green_mot_search_camera_0.h5
+2025-01-09 12:15:31,957 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0029\2025-01-09_0029_green_mot_search_camera_0.h5
+2025-01-09 12:15:31,957 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0029\2025-01-09_0029_green_mot_search_camera_0.h5
+2025-01-09 12:15:31,958 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0029\2025-01-09_0029_green_mot_search_camera_0.h5
+2025-01-09 12:16:11,096 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0030\2025-01-09_0030_green_mot_search_camera_0.h5
+2025-01-09 12:16:11,097 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0030\2025-01-09_0030_green_mot_search_camera_0.h5
+2025-01-09 12:16:11,097 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0030\2025-01-09_0030_green_mot_search_camera_0.h5
+2025-01-09 12:16:21,413 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0031\2025-01-09_0031_green_mot_search_camera_0.h5
+2025-01-09 12:16:21,413 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0031\2025-01-09_0031_green_mot_search_camera_0.h5
+2025-01-09 12:16:21,413 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0031\2025-01-09_0031_green_mot_search_camera_0.h5
+2025-01-09 12:34:19,351 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0032\2025-01-09_0032_green_mot_search_camera_0.h5
+2025-01-09 12:34:19,351 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0032\2025-01-09_0032_green_mot_search_camera_0.h5
+2025-01-09 12:34:19,351 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0032\2025-01-09_0032_green_mot_search_camera_0.h5
+2025-01-09 12:36:06,863 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0033\2025-01-09_0033_green_mot_search_camera_0.h5
+2025-01-09 12:36:06,863 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0033\2025-01-09_0033_green_mot_search_camera_0.h5
+2025-01-09 12:36:06,863 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0033\2025-01-09_0033_green_mot_search_camera_0.h5
+2025-01-09 12:43:33,131 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0035\2025-01-09_0035_green_mot_search_camera_0.h5
+2025-01-09 12:43:33,132 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0035\2025-01-09_0035_green_mot_search_camera_0.h5
+2025-01-09 12:43:33,132 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0035\2025-01-09_0035_green_mot_search_camera_0.h5
+2025-01-09 12:44:24,912 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0036\2025-01-09_0036_green_mot_search_camera_0.h5
+2025-01-09 12:44:24,912 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0036\2025-01-09_0036_green_mot_search_camera_0.h5
+2025-01-09 12:44:24,912 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0036\2025-01-09_0036_green_mot_search_camera_0.h5
+2025-01-09 12:44:45,933 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0037\2025-01-09_0037_green_mot_search_camera_0.h5
+2025-01-09 12:44:45,934 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0037\2025-01-09_0037_green_mot_search_camera_0.h5
+2025-01-09 12:44:45,934 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0037\2025-01-09_0037_green_mot_search_camera_0.h5
+2025-01-09 12:45:12,828 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0038\2025-01-09_0038_green_mot_search_camera_0.h5
+2025-01-09 12:45:12,828 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0038\2025-01-09_0038_green_mot_search_camera_0.h5
+2025-01-09 12:45:12,829 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0038\2025-01-09_0038_green_mot_search_camera_0.h5
+2025-01-09 12:45:53,327 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0039\2025-01-09_0039_green_mot_search_camera_0.h5
+2025-01-09 12:45:53,327 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0039\2025-01-09_0039_green_mot_search_camera_0.h5
+2025-01-09 12:45:53,327 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0039\2025-01-09_0039_green_mot_search_camera_0.h5
+2025-01-09 12:46:29,163 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0040\2025-01-09_0040_green_mot_search_camera_0.h5
+2025-01-09 12:46:29,164 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0040\2025-01-09_0040_green_mot_search_camera_0.h5
+2025-01-09 12:46:29,164 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0040\2025-01-09_0040_green_mot_search_camera_0.h5
+2025-01-09 12:46:44,681 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0041\2025-01-09_0041_green_mot_search_camera_0.h5
+2025-01-09 12:46:44,681 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0041\2025-01-09_0041_green_mot_search_camera_0.h5
+2025-01-09 12:46:44,682 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0041\2025-01-09_0041_green_mot_search_camera_0.h5
+2025-01-09 12:46:56,200 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0042\2025-01-09_0042_green_mot_search_camera_0.h5
+2025-01-09 12:46:56,200 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0042\2025-01-09_0042_green_mot_search_camera_0.h5
+2025-01-09 12:46:56,200 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0042\2025-01-09_0042_green_mot_search_camera_0.h5
+2025-01-09 12:47:06,049 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0043\2025-01-09_0043_green_mot_search_camera_0.h5
+2025-01-09 12:47:06,049 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0043\2025-01-09_0043_green_mot_search_camera_0.h5
+2025-01-09 12:47:06,049 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0043\2025-01-09_0043_green_mot_search_camera_0.h5
+2025-01-09 12:48:04,550 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0044\2025-01-09_0044_green_mot_search_camera_0.h5
+2025-01-09 12:48:04,550 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0044\2025-01-09_0044_green_mot_search_camera_0.h5
+2025-01-09 12:48:04,550 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0044\2025-01-09_0044_green_mot_search_camera_0.h5
+2025-01-09 12:48:27,939 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0045\2025-01-09_0045_green_mot_search_camera_0.h5
+2025-01-09 12:48:27,939 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0045\2025-01-09_0045_green_mot_search_camera_0.h5
+2025-01-09 12:48:27,939 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0045\2025-01-09_0045_green_mot_search_camera_0.h5
+2025-01-09 12:48:49,629 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0046\2025-01-09_0046_green_mot_search_camera_0.h5
+2025-01-09 12:48:49,630 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0046\2025-01-09_0046_green_mot_search_camera_0.h5
+2025-01-09 12:48:49,630 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0046\2025-01-09_0046_green_mot_search_camera_0.h5
+2025-01-09 12:49:40,248 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0047\2025-01-09_0047_green_mot_search_camera_0.h5
+2025-01-09 12:49:40,249 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0047\2025-01-09_0047_green_mot_search_camera_0.h5
+2025-01-09 12:49:40,249 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0047\2025-01-09_0047_green_mot_search_camera_0.h5
+2025-01-09 12:50:18,590 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0048\2025-01-09_0048_green_mot_search_camera_0.h5
+2025-01-09 12:50:18,590 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0048\2025-01-09_0048_green_mot_search_camera_0.h5
+2025-01-09 12:50:18,590 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0048\2025-01-09_0048_green_mot_search_camera_0.h5
+2025-01-09 12:50:30,967 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0049\2025-01-09_0049_green_mot_search_camera_0.h5
+2025-01-09 12:50:30,967 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0049\2025-01-09_0049_green_mot_search_camera_0.h5
+2025-01-09 12:50:30,969 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0049\2025-01-09_0049_green_mot_search_camera_0.h5
+2025-01-09 12:51:27,985 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0050\2025-01-09_0050_green_mot_search_camera_0.h5
+2025-01-09 12:51:27,985 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0050\2025-01-09_0050_green_mot_search_camera_0.h5
+2025-01-09 12:51:27,986 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0050\2025-01-09_0050_green_mot_search_camera_0.h5
+2025-01-09 12:52:17,102 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0051\2025-01-09_0051_green_mot_search_camera_0.h5
+2025-01-09 12:52:17,102 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0051\2025-01-09_0051_green_mot_search_camera_0.h5
+2025-01-09 12:52:17,102 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0051\2025-01-09_0051_green_mot_search_camera_0.h5
+2025-01-09 12:53:11,613 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0052\2025-01-09_0052_green_mot_search_camera_0.h5
+2025-01-09 12:53:11,613 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0052\2025-01-09_0052_green_mot_search_camera_0.h5
+2025-01-09 12:53:11,613 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0052\2025-01-09_0052_green_mot_search_camera_0.h5
+2025-01-09 12:53:26,792 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0053\2025-01-09_0053_green_mot_search_camera_0.h5
+2025-01-09 12:53:26,792 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0053\2025-01-09_0053_green_mot_search_camera_0.h5
+2025-01-09 12:53:26,793 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0053\2025-01-09_0053_green_mot_search_camera_0.h5
+2025-01-09 12:53:46,818 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0054\2025-01-09_0054_green_mot_search_camera_0.h5
+2025-01-09 12:53:46,819 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0054\2025-01-09_0054_green_mot_search_camera_0.h5
+2025-01-09 12:53:46,819 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0054\2025-01-09_0054_green_mot_search_camera_0.h5
+2025-01-09 12:54:11,934 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0055\2025-01-09_0055_green_mot_search_camera_0.h5
+2025-01-09 12:54:11,934 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0055\2025-01-09_0055_green_mot_search_camera_0.h5
+2025-01-09 12:54:11,934 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0055\2025-01-09_0055_green_mot_search_camera_0.h5
+2025-01-09 12:54:55,840 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0056\2025-01-09_0056_green_mot_search_camera_0.h5
+2025-01-09 12:54:55,840 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0056\2025-01-09_0056_green_mot_search_camera_0.h5
+2025-01-09 12:54:55,840 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0056\2025-01-09_0056_green_mot_search_camera_0.h5
+2025-01-09 12:55:43,778 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0057\2025-01-09_0057_green_mot_search_camera_0.h5
+2025-01-09 12:55:43,778 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0057\2025-01-09_0057_green_mot_search_camera_0.h5
+2025-01-09 12:55:43,778 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0057\2025-01-09_0057_green_mot_search_camera_0.h5
+2025-01-09 12:56:16,258 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0058\2025-01-09_0058_green_mot_search_camera_0.h5
+2025-01-09 12:56:16,258 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0058\2025-01-09_0058_green_mot_search_camera_0.h5
+2025-01-09 12:56:16,259 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0058\2025-01-09_0058_green_mot_search_camera_0.h5
+2025-01-09 12:57:42,974 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0059\2025-01-09_0059_green_mot_search_camera_0.h5
+2025-01-09 12:57:42,974 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0059\2025-01-09_0059_green_mot_search_camera_0.h5
+2025-01-09 12:57:42,975 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0059\2025-01-09_0059_green_mot_search_camera_0.h5
+2025-01-09 12:58:11,134 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0060\2025-01-09_0060_green_mot_search_camera_0.h5
+2025-01-09 12:58:11,134 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0060\2025-01-09_0060_green_mot_search_camera_0.h5
+2025-01-09 12:58:11,134 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0060\2025-01-09_0060_green_mot_search_camera_0.h5
+2025-01-09 12:58:25,843 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0061\2025-01-09_0061_green_mot_search_camera_0.h5
+2025-01-09 12:58:25,843 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0061\2025-01-09_0061_green_mot_search_camera_0.h5
+2025-01-09 12:58:25,844 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0061\2025-01-09_0061_green_mot_search_camera_0.h5
+2025-01-09 12:59:23,960 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0062\2025-01-09_0062_green_mot_search_camera_0.h5
+2025-01-09 12:59:23,960 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0062\2025-01-09_0062_green_mot_search_camera_0.h5
+2025-01-09 12:59:23,960 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0062\2025-01-09_0062_green_mot_search_camera_0.h5
+2025-01-09 13:00:32,885 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0063\2025-01-09_0063_green_mot_search_camera_0.h5
+2025-01-09 13:00:32,886 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0063\2025-01-09_0063_green_mot_search_camera_0.h5
+2025-01-09 13:00:32,886 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0063\2025-01-09_0063_green_mot_search_camera_0.h5
+2025-01-09 13:01:13,824 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0064\2025-01-09_0064_green_mot_search_camera_0.h5
+2025-01-09 13:01:13,824 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0064\2025-01-09_0064_green_mot_search_camera_0.h5
+2025-01-09 13:01:13,825 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0064\2025-01-09_0064_green_mot_search_camera_0.h5
+2025-01-09 13:04:58,050 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0065\2025-01-09_0065_green_mot_search_camera_0.h5
+2025-01-09 13:04:58,051 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0065\2025-01-09_0065_green_mot_search_camera_0.h5
+2025-01-09 13:04:58,051 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0065\2025-01-09_0065_green_mot_search_camera_0.h5
+2025-01-09 13:06:23,162 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0066\2025-01-09_0066_green_mot_search_camera_0.h5
+2025-01-09 13:06:23,163 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0066\2025-01-09_0066_green_mot_search_camera_0.h5
+2025-01-09 13:06:23,163 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0066\2025-01-09_0066_green_mot_search_camera_0.h5
+2025-01-09 13:07:11,840 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0067\2025-01-09_0067_green_mot_search_camera_0.h5
+2025-01-09 13:07:11,842 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0067\2025-01-09_0067_green_mot_search_camera_0.h5
+2025-01-09 13:07:11,842 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0067\2025-01-09_0067_green_mot_search_camera_0.h5
+2025-01-09 13:09:14,116 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0068\2025-01-09_0068_green_mot_search_camera_0.h5
+2025-01-09 13:09:14,117 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0068\2025-01-09_0068_green_mot_search_camera_0.h5
+2025-01-09 13:09:14,117 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0068\2025-01-09_0068_green_mot_search_camera_0.h5
+2025-01-09 13:09:48,459 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0069\2025-01-09_0069_green_mot_search_camera_0.h5
+2025-01-09 13:09:48,460 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0069\2025-01-09_0069_green_mot_search_camera_0.h5
+2025-01-09 13:09:48,460 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0069\2025-01-09_0069_green_mot_search_camera_0.h5
+2025-01-09 13:10:27,289 INFO runviewer.server: Received hdf5 file: Z:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0070\2025-01-09_0070_green_mot_search_camera_0.h5
+2025-01-09 13:10:27,289 INFO runviewer: local filepath: S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0070\2025-01-09_0070_green_mot_search_camera_0.h5
+2025-01-09 13:10:27,291 INFO runviewer: loading run from S:\Experiments\Yb171_MOT_Tweezer_trap\green_mot_search_camera\2025\01\09\0070\2025-01-09_0070_green_mot_search_camera_0.h5
